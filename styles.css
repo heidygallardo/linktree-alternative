@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lavenderblush;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto; 
+}
+
+.link-btn {
+    background-color: white;
+    padding: 16px 20px; 
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #000; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-btn:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff; 
+}
